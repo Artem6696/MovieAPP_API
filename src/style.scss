@@ -1,0 +1,129 @@
+body {
+    font-family: ProximaNova-Regular,Arial;
+    margin: 0px;
+    background:#f9f8ff ;
+}
+.header{
+    margin: 20px;
+}
+.header_block {
+   
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 50px;
+        .logo-nav{
+            display: flex;
+        }
+        .search-user{
+            display: flex;
+            gap: 15px;
+            margin-right: 20px;
+        }
+        .header_logo-img img{
+            width: 50px;
+        }
+    
+        .header_nav-list {
+            .nav-list-items{
+                display: flex;
+                gap: 25px;
+                list-style-type: none;
+                
+            }
+            
+        }
+        .header_search-img img{
+            width: 80px;
+            margin-bottom: 10px;
+        }
+    
+        .header_user-img img{
+            width: 50px;
+        }
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    width: auto;
+    margin-top: 50px;
+    margin-bottom: 180px;
+  }
+  .dropbtn{
+    margin-left: 25px;
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 26px;
+    left: 0;
+    background-color: #f9f9f9;
+    width: 100%; /* 20% * 4 = 80% */
+   /* Ограничение ширины */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden; /* Скрытие лишних фильмов */
+  }
+  
+  .dropdown-content .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    width: 20%;
+    box-sizing: border-box;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+
+
+.film-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+    .card-film{
+        .card-film_image img{
+            width: 180px;
+            height: 270px;
+        }
+        .card-film_content{
+            display: flex;
+            flex-direction: column;
+            .card-film_title{
+                text-align: center;
+                width: 180px;
+                word-wrap: break-word;
+            }
+            .card-film_genre{
+
+            }
+        }
+    }
+}
+
+
+.button_show-more{
+    cursor: pointer;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
