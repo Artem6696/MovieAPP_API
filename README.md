@@ -1,11 +1,11 @@
-# BlogPlatformAPI
+# MovieAPP_API
 
 # Установка и запуск:
 #
 ### 1. Клонируйте репозиторий:
 
 
-   git clone https://github.com/Artem6696/BlogPlatformAPI.git
+   git clone https://github.com/Artem6696/MovieAPP_API.git
 #
 ### 2. Перейдите в каталог проекта:
 
